@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.maincontainer img {
+    display: block;
+    margin: 0 auto 25px auto;
+    width: 272px;
+    height: 92px;
+
+}
+
+.maincontainer{
+    margin-top: 100px;
+}
+
+#searchText {
+    background-color: transparent;
+    border: none;
+    background: transparent;
+    display: flex;
+    margin: 3px 40px 3px 40px;
+    font-size: 16px;
+    height: 40px;
+    width: 500px;
+}
+
+#searchBar {
+    width: 582px;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+}
+
+#searchBar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+#buttons {
+    display: block;
+    margin: 0 auto;
+    margin: 30px auto;
+    width: 400px;
+    height: 40px;
+}
+
+.searchButtons {
+    position: relative;
+    top: 0px;
+    height: 36px;
+    font-size: 11pt;
+    color: #5c5c5c;
+    background: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    padding: 0px 15px;
+    cursor: pointer;
+}
+
+#feelingLucky {
+    margin-left: 5px;
+}
+
+#googleSearch {
+    margin-left: 55px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    font-size: 13px;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: black
+}
+
+.leftnav {
+    float: left;
+    padding: 14px 16px;
+}
+
+.rightnav {
+    float: right;
+    padding: 14px 16px;
+}
+
+#apps {
+    color:#000;
+    cursor: pointer;
+    text-decoration: none;
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -132px -38px;
+    opacity: .55;
+    margin: 8px 0px;
+}
+
+#signin {
+    display: inline-block;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+}
+
+#signin a {
+    color: white;
+}
+
+#footer {
+    position: fixed;
+    width: 100%;
+    height: 35px;
+    bottom: 0px;
+    display: block;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    color: #5f6368;
+}
+
+#footer ul {
+    background-color: #f2f2f2;
+}
+
+#footer a {
+    color: #5f6368;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+.leftfoot {
+    float: left;
+    padding: 0px 16px;
+}
+
+.rightfoot {
+    float: right;
+    padding: 0px 16px;
+}
